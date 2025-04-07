@@ -1,0 +1,72 @@
+.fundo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primaria_Light);
+    width: 100vw;
+    height: calc(100vh - 160px);
+}
+
+.conteudo{
+    width: 500px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--primaria_Light_active);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 3px 3px 3px 3px rgba(44, 44, 44, 0.15);
+}
+
+.delete_titulo{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.delete_confirma{
+    text-align: center;
+    font-size: 20px;
+    color: var(--primaria_darker);
+}
+
+.bt_enviar{
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: var(--primaria_normal);
+    color: var(--branco);
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  .bt_nao_enviar{
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: var(--secundaria_normal);
+    color: var(--branco);
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  
+  .bt_nao_enviar:hover{
+    background-color: var(--secundaria_darker);
+    color: var(--branco);
+   }
+
+   form .delete_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   }
+
+
+  

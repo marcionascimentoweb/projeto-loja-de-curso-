@@ -1,0 +1,90 @@
+
+:root {
+    --primaria_Light: #EFF9FA;
+    --primaria_Light_hover: #E7F6F8;
+    --primaria_Light_active: #CCEDF0;
+    --primaria_normal: #5CC6D0;
+    --primaria_normal_hover: #53B2BB;
+    --primaria_normal_active: #4A9EA6;
+    --primaria_dark: #45959C;
+    --primaria_dark_hover: #37777D;
+    --primaria_dark_active: #29595E;
+    --primaria_darker: #204549;
+
+    --secundaria_Light: #E7EEF1;
+    --secundaria_Light_hover: #DAE5EA;
+    --secundaria_Light_active: #B3CAD4;
+    --secundaria_normal: #0B5473;
+    --secundaria_normal_hover: #0A4C68;
+    --secundaria_normal_active: #09435C;
+    --secundaria_dark: #083F56;
+    --secundaria_dark_hover: #073245;
+    --secundaria_dark_active: #052634;
+    --secundaria_darker: #041D28;
+
+    --terciaria_Light: #F4F4F4;
+    --terciaria_Light_hover: #EEEEEF;
+    --terciaria_Light_active: #DCDCDD;
+    --terciaria_normal: #8D8E91;
+    --terciaria_normal_hover: #7F8083;
+    --terciaria_normal_active: #717274;
+    --terciaria_dark: #6A6B6D;
+    --terciaria_dark_hover: #555557;
+    --terciaria_dark_active: #3F4041;
+    --terciaria_darker: #313233;
+
+    --branco:#fff;
+}
+
+/* RESET */
+
+html, body, p, h1, h2, ul, li{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.body{
+    font-family: "Montserrat", sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1{
+    font-family: "Montserrat", sans-serif;
+}
+
+h3{
+    font-family: "Montserrat", sans-serif;
+    color: var(--primaria_normal);
+  
+
+}
+
+/* Botão Enviar */
+.bt_enviar{
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: var(--primaria_normal);
+    color: var(--branco);
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+ 
+  .bt_enviar:hover{
+    background-color: var(--primaria_darker);
+    color: var(--primaria_Light);
+}
+
+

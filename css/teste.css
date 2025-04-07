@@ -1,0 +1,18 @@
+/* Botão Enviar */
+.bt_enviar{
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: var(--primaria_normal);
+    color: var(--branco);
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+ 
+  .bt_enviar:hover{
+    background-color: var(--primaria_darker);
+    color: var(--primaria_Light);
+}
