@@ -84,7 +84,7 @@ require_once("templates/header.php");
                     <input type="hidden" name="type">
 
                         <label for="nome_aluno">Nome:</label>
-                        <input type="text" id="nome_aluno" name="nome_aluno" 
+                        <input type="text" id="nome_aluno" name="nome_aluno"  placeholder="Digite seu nome"
                         value="<?php echo !empty($nome_aluno) ? $nome_aluno : ''; ?>">
                         
                     
